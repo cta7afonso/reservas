@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plano A para o São Valentim • Clínica da Bandeira</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fff5f7 0%, #ffebee 100%);
+      color: #4a2c3b;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(12px);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+      padding: 1.4rem 5%;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 6px 35px rgba(0,0,0,0.06);
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.3rem;
+      color: #c2185b;
+      letter-spacing: 1.2px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 160px 5% 90px;
+    }
+    .container {
+      max-width: 920px;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      color: #880e4f;
+      margin-bottom: 1.4rem;
+      line-height: 1.05;
+    }
+    h2 {
+      font-size: 1.9rem;
+      color: #ad1457;
+      margin: 2.2rem 0 1.6rem;
+      font-weight: 500;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1.9rem;
+      color: #5d4037;
+    }
+    .highlight {
+      color: #d81b60;
+      font-weight: 500;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #ec407a, #d81b60);
+      color: #ffffff;
+      font-size: 1.35rem;
+      font-weight: 500;
+      padding: 1.1rem 3rem;
+      border-radius: 50px;
+      text-decoration: none;
+      margin: 2.2rem 0;
+      box-shadow: 0 12px 35px rgba(216, 27, 96, 0.28);
+      transition: all 0.35s ease;
+      letter-spacing: 0.6px;
+    }
+    .btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 18px 45px rgba(216, 27, 96, 0.38);
+      background: linear-gradient(90deg, #d81b60, #c2185b);
+    }
+    .details {
+      background: rgba(255, 255, 255, 0.94);
+      border-radius: 24px;
+      padding: 2.8rem;
+      margin: 2.8rem 0;
+      box-shadow: 0 12px 45px rgba(0,0,0,0.09);
+      backdrop-filter: blur(10px);
+    }
+    footer {
+      background: rgba(255, 255, 255, 0.65);
+      padding: 3.5rem 5% 2.5rem;
+      text-align: center;
+      border-top: 1px solid rgba(216, 27, 96, 0.18);
+    }
+    .contact-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      color: #ad1457;
+      margin-bottom: 1.8rem;
+    }
+    .contact-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem 3rem;
+      font-size: 1.15rem;
+      color: #5d4037;
+    }
+    .contact-list a {
+      color: #ad1457;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .contact-list a:hover {
+      color: #c2185b;
+    }
+    @media (max-width: 768px) {
+      h1 { font-size: 3rem; }
+      .container { padding: 0 6%; }
+      .contact-list { flex-direction: column; gap: 1.4rem; }
+      .btn { font-size: 1.2rem; padding: 1rem 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Clínica da Bandeira</div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Plano A para o São Valentim<br>que nunca viveste</h1>
+      
+      <p>Um momento íntimo e exclusivo, repleto de cuidado, mimo e renovação profunda.<br>Porque o amor se fortalece quando cuidamos um do outro com dedicação.</p>
+      
+      <div class="details">
+        <h2>Reserve o vosso momento especial</h2>
+        <p>Vagas <span class="highlight">limitadas</span> com <span class="highlight">preço exclusivo para casais</span><br>nos dias <strong>12</strong> e <strong>13 de fevereiro</strong>.</p>
+        
+        <a href="https://form.jotform.com/260361740043043" class="btn" target="_blank">Reservar Agora</a>
+      </div>
+      
+      <p>Deixem-se envolver por uma experiência criada com todo o carinho,<br>para celebrarem e fortalecerem o que vos une de forma única.</p>
+    </div>
+  </main>
+
+  <footer>
+    <h3 class="contact-title">Contacte-nos</h3>
+    <div class="contact-list">
+      <a href="https://www.instagram.com/clinicadabandeira/" target="_blank">Instagram: @clinicadabandeira</a>
+      <a href="mailto:clinicadabandeira@gmail.com">E-mail: clinicadabandeira@gmail.com</a>
+      <a href="tel:+351934579140">Telemóvel: +351 934 579 140</a>
+    </div>
+  </footer>
+
+</body>
+</html>
